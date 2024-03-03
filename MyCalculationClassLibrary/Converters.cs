@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MyCalulationClassLibrary
+namespace MyCalculationClassLibrary
 {
     public class Converters
     {

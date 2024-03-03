@@ -1,15 +1,15 @@
-﻿using MyCalulationClassLibrary;
+﻿using MyCalculationClassLibrary;
 
 // See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 
-string? intput = Console.ReadLine();
-
-string[] srtA = intput.Split(' ');
+string? input = Console.ReadLine();
+input ??= string.Empty;
+string[] srtA = input.Split(' ');
 int[] numbers = Converters.ToInt(srtA);
 int sum = Mathematics.Sum(numbers);
 
-//int sum = LinqDemo.TryParseAndSum(intput);
+sum = LinqDemo.TryParseAndSum(input);
 
 Console.WriteLine("sum is following: {0}", sum);
 

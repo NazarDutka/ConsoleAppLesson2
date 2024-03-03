@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppLesson2", "ConsoleAppLesson2\ConsoleAppLesson2.csproj", "{8E6779D0-900D-4467-8246-011CC8C1BD96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{8E6779D0-900D-4467-8246-011CC8C1BD96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCalulationClassLibrary", "MyCalulationClassLibrary\MyCalulationClassLibrary.csproj", "{BD8FAB73-41BE-49AB-8057-F274BC6B18FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCalculationClassLibrary", "MyCalculationClassLibrary\MyCalculationClassLibrary.csproj", "{BD8FAB73-41BE-49AB-8057-F274BC6B18FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCalculationClassLibrary.Tests", "MyCalculationClassLibrary.Tests\MyCalculationClassLibrary.Tests.csproj", "{5AA28FD8-FB1A-4886-8737-D392B59595CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{BD8FAB73-41BE-49AB-8057-F274BC6B18FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD8FAB73-41BE-49AB-8057-F274BC6B18FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD8FAB73-41BE-49AB-8057-F274BC6B18FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AA28FD8-FB1A-4886-8737-D392B59595CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA28FD8-FB1A-4886-8737-D392B59595CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA28FD8-FB1A-4886-8737-D392B59595CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA28FD8-FB1A-4886-8737-D392B59595CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
