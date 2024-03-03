@@ -4,18 +4,12 @@
 Console.WriteLine("Hello, World!");
 
 string? intput = Console.ReadLine();
-//string[] srtA = intput.Split(' ');
-//int[] numbers = Converters.ToInt(srtA);
-//int sum = Mathematics.Sum(numbers);
 
-int? sum = intput?.Split(' ')
-    .Select((string str) => 
-    { 
-        int.TryParse(str, out var number);
-        return number;
-    })
-    .Sum();
+string[] srtA = intput.Split(' ');
+int[] numbers = Converters.ToInt(srtA);
+int sum = Mathematics.Sum(numbers);
+
+//int sum = LinqDemo.TryParseAndSum(intput);
 
 Console.WriteLine("sum is following: {0}", sum);
-
 
